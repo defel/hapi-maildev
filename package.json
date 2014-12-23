@@ -1,0 +1,31 @@
+{
+  "name": "hapi-maildev",
+  "version": "0.1.0",
+  "description": "Maildev plugin for hapi",
+  "main": "index.js",
+  "author": "defel <dem_ist@nurfuerspam.de>",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/defel/hapi-maildev.git"
+  },
+  "keywords": [
+    "hapi",
+    "plugin",
+    "maildev",
+    "email"
+  ],
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/defel/hapi-maildev/issues"
+  },
+  "peerDependencies": {
+    "hapi": "^7.5.2"
+  },
+  "homepage": "https://github.com/defel/hapi-maildev",
+  "dependencies": {
+    "maildev": "^0.6.2"
+  }
+}
